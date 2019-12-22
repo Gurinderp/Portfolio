@@ -118,6 +118,30 @@ img {
     height: 200px;
 }
 
+#rowone {
+    margin-left: 30%;
+    padding: 5px;
+    width: 50%;
+    height: 200px;
+}
+
+#rowtwo {
+    margin-left: 30%;
+    border-width: 5px;
+    padding: 5px;
+    width: auto;
+    height: 200px;
+}
+
+#game {
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.placehold {
+    border-width: 10px;
+}
 
 footer {
     text-align: center;

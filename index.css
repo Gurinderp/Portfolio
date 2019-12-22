@@ -143,6 +143,10 @@ img {
     border-width: 10px;
 }
 
+#button {
+    text-align: left;
+}
+
 footer {
     text-align: center;
     background-color: darkslategray;

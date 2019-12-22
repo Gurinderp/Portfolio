@@ -114,12 +114,8 @@ footer {
     background-color: darkslategray;
     color: white;
     border-top: solid  rgb(0, 143, 136);
-    margin: 0 auto;
     height: auto;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
 }
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }

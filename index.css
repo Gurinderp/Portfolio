@@ -6,17 +6,18 @@ body {
 #top {
     background: white;
     height: 80px;
+    top: 0;
 }
 
 #name {
     float: left;
     width: 290px;
-    background-color: rgb(0, 143, 136);
+    background-color: rgb(74, 170, 165);
     color: white;
     font-size: 20px;
     padding: 10px;
     height: 60px;
-    margin-left: 21%;
+    margin-left: 17%;
 }
 
 h1 {
@@ -25,7 +26,7 @@ h1 {
 }
 
 #links {
-    margin-right: 21%;
+    margin-right: 17%;
 }
 
 .link {
@@ -33,37 +34,26 @@ h1 {
     text-align: right;
     color: rgb(48, 48, 48);
     padding: 5px;
-    height: 30px;
+    height: 20px;
     padding-top: 18px;
+    width: auto;
+}
+
+#about {
+    border-left-style: solid;
+    border-color: lightgray;
+    font-size: 16px;
+}
+
+
+#portfoliolink {
+    border-left-style: solid;
+    border-color: lightgray;
+    font-size: 16px;
 }
 
 
 #contact {
-    padding: 4px;
-    padding-left: 20px;
-    margin: 5px;
-    height: 25px;
-    font-size: 16px;
-}
-
-
-#portfolio {
-    border-left-style: solid;
-    padding: 4px;
-    padding-left: 20px;
-    margin: 5px;
-    height: 25px;
-    font-size: 16px;
-}
-
-
-
-#about {
-    border-left-style: solid;
-    padding: 4px;
-    padding-left: 20px;
-    margin: 5px;
-    height: 25px;
     font-size: 16px;
 }
 
@@ -71,16 +61,14 @@ h1 {
 .zero {
     margin: 0;
     padding: 3px;
-}
+    padding-left: 7px;
 
-#bottom {
-    
 }
 
 .box {
     position: relative;
     text-align: center;
-    width: 55%;
+    width: 960px;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.712);
     height: auto;
@@ -88,12 +76,9 @@ h1 {
     padding: 20px;
 }
 
-#content {
-
-}
 
 #aboutme {
-    color: rgba(0, 126, 6, 0.521);
+    color: rgb(74, 170, 165);
     text-align: left;
     font-size: 30px;
     padding-left: 10px;
@@ -107,6 +92,28 @@ h1 {
 img {
     float: left;
     width: 200px;
+}
+
+.contactinfo {
+    text-align: left;
+    color: rgb(133, 133, 133);
+    font-size: 20px;
+}
+
+#contact_name,
+#email,
+#message {
+    width: 100%;
+    border-color: lightgray;
+    border-width: 1px;
+    
+}
+
+#message {
+    height: 200px;
+}
+
+.container {
 }
 
 footer {
